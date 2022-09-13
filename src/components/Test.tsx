@@ -11,7 +11,7 @@ export const Test = () => {
     return (
         <div>
             <div>{count}</div>
-            <button className={style.btn} onClick={plus}>ADD</button>
+            <button onClick={plus}>ADD</button>
         </div>
     )
 }
