@@ -25,7 +25,6 @@ export function buildLoaders({isDev}: BuildOptions): webpack.RuleSetRule[] {
                         },
                     }
                 },
-
                 "sass-loader",
             ],
         }
@@ -33,6 +32,5 @@ export function buildLoaders({isDev}: BuildOptions): webpack.RuleSetRule[] {
     return [
         typescriptLoader,
         cssLoaders
-
     ]
 }
