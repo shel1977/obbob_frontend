@@ -1,6 +1,7 @@
-.themeSwitcher svg{
-  color: var(--inverted-primary-color);
-  &:hover{
-    color: var(--inverted-secondary-color);
-  }
+.themeSwitcher svg {
+    color: var(--inverted-primary-color);
+
+    &:hover {
+        color: var(--inverted-secondary-color);
+    }
 }
