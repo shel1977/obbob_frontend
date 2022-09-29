@@ -8,3 +8,17 @@
     background: none;
     outline: none;
 }
+
+.circleButton {
+    border: 1px black solid;
+    padding: 0;
+    outline: none;
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    background: var(--primary-color);
+
+    &:hover {
+        background: var(--secondary-color);
+    }
+}

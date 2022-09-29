@@ -17,7 +17,10 @@ export const PageError = ({ className }: PageErrorProps) => {
     return (
         <div className={classNames(style.pageError, {}, [className])}>
             <p>{t('something wrong')}</p>
-            <Button onClick={reloadPage}>
+            <Button
+                onClick={reloadPage}
+                theme={ThemeButton.CIRCLE}
+            >
                 {t('refresh page')}
             </Button>
         </div>
