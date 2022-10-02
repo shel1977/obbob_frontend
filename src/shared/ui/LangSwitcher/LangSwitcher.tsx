@@ -3,7 +3,7 @@ import { useTranslation } from 'react-i18next';
 import React from 'react';
 import LangIcon from 'shared/assets/icons/language.svg';
 
-import { Button, ThemeButton } from 'shared/ui/Button/Button';
+import { Button, ButtonSIze, ButtonTheme } from 'shared/ui/Button/Button';
 import style from './LangSwitcher.module.scss';
 
 interface LangSwitcherProps {
@@ -19,10 +19,12 @@ export function LangSwitcher({ className }: LangSwitcherProps) {
     return (
         <Button
             className={classNames(style.langSwitcher, {}, [className])}
-            theme={ThemeButton.CLEAR}
+            theme={ButtonTheme.CLEAR}
             onClick={toggle}
+            size={ButtonSIze.M}
+            square
         >
-            <LangIcon height="24px" />
+            <LangIcon />
         </Button>
 
     );

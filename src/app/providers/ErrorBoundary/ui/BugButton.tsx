@@ -1,5 +1,5 @@
 import { useTranslation } from 'react-i18next';
-import { Button, ThemeButton } from 'shared/ui/Button/Button';
+import { Button, ButtonSIze, ButtonTheme } from 'shared/ui/Button/Button';
 import { useEffect, useState } from 'react';
 
 // test component
@@ -19,7 +19,7 @@ export const BugButton = () => {
     return (
         <Button
             onClick={onThrow}
-            theme={ThemeButton.CLEAR}
+            theme={ButtonTheme.CLEAR}
         >
             {t('throw error')}
         </Button>

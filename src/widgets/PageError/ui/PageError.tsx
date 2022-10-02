@@ -1,6 +1,6 @@
 import { classNames } from 'shared/lib/classNames/classNames';
 import { useTranslation } from 'react-i18next';
-import { Button, ThemeButton } from 'shared/ui/Button/Button';
+import { Button, ButtonTheme } from 'shared/ui/Button/Button';
 import style from './PageError.module.scss';
 import 'app/styles/index.scss';
 
@@ -20,7 +20,7 @@ export const PageError = ({ className }: PageErrorProps) => {
             <p>{t('something wrong')}</p>
             <Button
                 onClick={reloadPage}
-                theme={ThemeButton.CIRCLE}
+                theme={ButtonTheme.OUTLINE}
             >
                 {t('refresh page')}
             </Button>

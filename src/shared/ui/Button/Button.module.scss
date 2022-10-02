@@ -1,5 +1,14 @@
 .button {
+    border: none;
+    padding: 1rem 2rem;
+    margin: 0;
+    text-decoration: none;
+    background: var(--inverted-bg-color);
+    color: var(--inverted-primary-color);
+    font-family: sans-serif;
+    font-size: 1rem;
     cursor: pointer;
+    text-align: center;
 }
 
 .clear {
@@ -7,18 +16,59 @@
     padding: 0;
     outline: none;
     background: none;
+    color: var(--primary-color);
 }
 
-.circleButton {
-    border: 1px black solid;
-    padding: 0;
+.outline {
+    color: var(--primary-color);
+    border: 1px var(--primary-color) solid;
     outline: none;
-    height: 80px;
-    width: 80px;
-    border-radius: 50%;
-    background: var(--primary-color);
+    background: none;
 
     &:hover {
-        background: var(--secondary-color);
+        border: 1px var(--secondary-color) solid;
     }
+}
+
+.background {
+    background: var(--bg-color);
+    color: var(--primary-color);
+    border: none;
+}
+
+.backgroundInverted {
+    background: var(--inverted-bg-color);
+    color: var(--inverted-primary-color);
+    border: none;
+}
+
+.square {
+    padding: 0;
+}
+
+.square.size-m {
+    width: var(--font-line-m);
+    height: var(--font-line-m);
+}
+
+.square.size-l {
+    width: var(--font-line-l);
+    height: var(--font-line-l);
+}
+
+.square.size-xl {
+    width: var(--font-line-xl);
+    height: var(--font-line-xl);
+}
+
+.size-m {
+    font-size: var(--font-size-m);
+}
+
+.size-l {
+    font-size: var(--font-size-l);
+}
+
+.size-xl {
+    font-size: var(--font-size-xl);
 }
