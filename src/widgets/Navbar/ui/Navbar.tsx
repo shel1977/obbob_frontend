@@ -12,9 +12,7 @@ export const Navbar = ({ className }: NavbarProps) => {
     const { t } = useTranslation();
     return (
         <div className={classNames(style.navbar, {}, [className])}>
-            <div className={style.links}>
-                /
-            </div>
+            <div className={style.links} />
         </div>
     );
 };
