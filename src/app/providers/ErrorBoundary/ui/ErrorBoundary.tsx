@@ -38,7 +38,12 @@ class ErrorBoundary extends
             );
         }
 
-        return children;
+        return (
+            // eslint-disable-next-line react/jsx-no-useless-fragment
+            <>
+                {children}
+            </>
+        );
     }
 }
 

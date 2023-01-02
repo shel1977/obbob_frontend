@@ -11,12 +11,28 @@
     text-align: center;
 }
 
-.clear {
+.clear,
+.invertedClear {
     border: none;
     padding: 0;
     outline: none;
     background: none;
+}
+
+.clear {
     color: var(--primary-color);
+
+    &:hover {
+        color: var(--secondary-color);
+    }
+}
+
+.invertedClear {
+    color: var(--inverted-primary-color);
+
+    &:hover {
+        color: var(--inverted-secondary-color);
+    }
 }
 
 .outline {
