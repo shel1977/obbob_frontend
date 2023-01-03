@@ -64,7 +64,7 @@ export const Sidebar = ({ className }: SidebarProps) => {
             </div>
             <div className={style.switcher}>
                 <ThemeSwitcher />
-                <LangSwitcher className={style.lang} />
+                <LangSwitcher />
             </div>
         </div>
     );
