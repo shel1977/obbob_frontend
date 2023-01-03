@@ -15,7 +15,7 @@ export const ThemeSwitcher = () => {
             square
         >
             {
-                theme === 'light'
+                theme === 'app_light_theme'
                     ? <MoonIcon />
                     : <SunIcon />
             }

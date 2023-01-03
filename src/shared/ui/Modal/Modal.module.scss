@@ -21,12 +21,11 @@
 .content {
     padding: 20px;
     border-radius: 12px;
-    background: #edf6fdff;
-
-    // background: var(--bg-color);
+    background: var(--bg-color);
     transition: 0.2s ease-in-out transform;
     transform: scale(0.5);
     max-width: 50%;
+    color: var(--primary-color);
 }
 
 .opened {
