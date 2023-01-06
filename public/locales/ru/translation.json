@@ -6,5 +6,7 @@
   "refresh page": "обновить",
   "open": "открыть",
   "about": "о компании",
-  "main": "главная"
+  "main": "главная",
+  "wrong login or password": "Неверный логин или пароль",
+  "Authorisation": "Авторизация"
 }

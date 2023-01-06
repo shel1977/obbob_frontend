@@ -70,3 +70,10 @@ SquareOutlineXL.args = {
     theme: ButtonTheme.OUTLINE,
     square: true,
 };
+
+export const Disabled = Template.bind({});
+Disabled.args = {
+    children: 'A',
+    theme: ButtonTheme.OUTLINE,
+    disabled: true,
+};
